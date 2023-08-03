@@ -1,0 +1,281 @@
+﻿HTML TAGS
+
+
+
+
+Tag Name
+	Tag Description
+	Syntax
+	* <html>
+	Define the root element of entire web page.
+	<html> …. </html>
+	* <head>
+	Defines information. 
+	<head>
+  <title>Title </title>
+</head>
+	* <body>
+	Defines the body.
+	<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph.</p>
+</body>
+	* <titile>
+	Defines the title.
+	<head>
+  <title>HTML Elements Reference</title>
+</head>
+	* <meta>
+	Defines metadata.
+	<head>
+  <meta charset="....’">
+  <meta name="..." content="...">
+</head>
+
+
+	* <style>
+	Defines style information.
+	<style>
+  h1 {color:red;}
+  p {color:blue;}
+</style>
+	* <link>
+	Used to link style sheets.
+	  <link rel="...." href="...">
+	* <script>
+	Defines a client-side script.
+	<script>
+…………
+</script>
+
+
+	* Div
+	Division or container.
+	<div class="....">
+  <h2>heading</h2>
+  <p>some text</p>
+</div>
+	* Section
+	Used to define a section.
+	<section>
+<h2>.......</h2>
+<p>…...</p>
+</section>
+	* Article
+	Specifies independent,self-contained content.
+	<article>
+<h2>....</h2>
+<p>.......</p>
+</article>
+	* Nav
+	Provides navigation links.
+	<nav>
+  <a href="/html/">HTML</a> |
+  <a href="/css/">CSS</a>
+</nav>
+
+
+	* Header
+	Container for introductory content.
+	<header>
+    <h1>......</h1>
+        <p>.....</p>
+        <p>.....</p>
+  </header>
+	* Footer
+	Contains the information
+	<footer>
+  <p>.......</p>
+  <p><a ……</a></p>
+</footer>
+
+
+	* Aside
+	Used for side bar.
+	<p>.....!</p>
+
+
+<aside>
+<h4>.....</h4>
+<p>.....</p>
+</aside>
+
+
+	* <h1>
+	Main page heading should be inserted .
+	<h1>This is heading 1</h1>
+	* <h2>
+	First sub-heading after the main heading.
+	<h2>This is heading 2</h2>
+	* <p>
+	Defines the paragraph.
+	<p>.....</p>
+
+
+	* <i>
+	Display the content in italic style.
+	<p><i>.....</i> ….</p>
+	* <strong>
+	Text with strong importance.
+	<strong>This text is important!</strong>
+	* <b>
+	Bold text with any extra importance.
+	<p>normal text - 
+<b> bold text</b>.</p>
+
+
+	* <a>
+	Hyperlinks,used to link from one page to another.
+	<a href="https://www.w3schools.com">Visit W3Schools.com!</a>
+
+
+	* <ul>
+	Unordered list.
+	<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+
+	* <ol>
+	Ordered list.
+	<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+	* <li>
+	Represent an item in list.
+	<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+	* <image>
+	Images are linked to web pages.
+	<image src=” “/>
+	* Table
+	Defines a table.
+	<table>
+  <tr>
+    <th>....</th>
+  </tr>
+  <tr>
+    <td>.....</td>
+  </tr>
+</table>
+
+
+	* Thead
+	Groups the header content in a table.
+	<thead>.....</thead>
+	* Tbody
+	Group the body content in the table.
+	<tbody>......</tbody>
+	* th
+	Defines a header cell in a table.
+	 <th>....</th>
+
+
+	* tr
+	Defines a row in a table.
+	 <tr>
+    <th>....</th>
+  </tr>
+  <tr>
+    <td>.....</td>
+  </tr>
+
+
+	* td
+	Defines a cell in a table.
+	  <td>.....</td>
+	* Form
+	Create an HTML form for user input.
+	<form>...</form>
+	* Input
+	Specifies an input field where the user can enter the data.
+	<input type="..." id="...." name="fname"><br><br>
+	* Label
+	Specifies a label for an input element of a form.
+	<label for="...">..</label><br>
+	* Select
+	Element is used to create a drop-down list.
+	<select name=".." id="..">
+</select>
+	* Option
+	Used to choose an option from the drop-down list.
+	<option value="..">..</option>
+	* Textarea
+	Defines a multi-line text input control.
+	
+
+<textarea id="...." name="..." rows=".." cols="..">....
+</textarea>
+
+
+	* iframe
+	A region is created within a document in which the browser can display a separate document,including scrollbars and borders.
+	<iframe
+src=”...”
+title=”..”></iframe>
+	* <audio>
+	Embed sound content.
+	<audio controls>
+  <source src="...." type="...">
+  <source src="...." type="...">
+</audio>
+
+
+	* <canvas>
+	Used to draw graphics on a web page using java script.
+	<canvas id=".....">
+</canvas>
+<script>.....</script>
+	* <command>
+	Used to execute a command.
+	<command type="...." label="...">....</command>
+
+
+	* <datalist>
+	Specifies a list of pre-defined options for an input element.
+	<datalist id="browsers">
+  <option value="Edge">
+  <option value="Firefox">
+</datalist>
+	* <figure>
+	Specifies self contained content like diagrams ,photos,code listings,etc.
+	
+
+<figure>
+  <img src="..." alt=".." style="....">
+  <figcaption>.....</figcaption>
+</figure>
+
+
+	* <mark>
+	Highlights some part of the text.
+	<p>Do not forget to buy <mark>milk</mark> today.</p>
+
+
+	* <progress>
+	Represents progress of task.
+	<label for="file">Downloading progress:</label>
+<progress id="file" value="32" max="100"> 32% </progress>
+
+
+	* <time>
+	Defines a specific time (or datetime).
+	<p>Open from <time>10:00</time> to <time>21:00</time> every weekday.</p>
+
+
+<p>I have a class on <time datetime="2023-08-4 10:00">fri day</time>.</p>
+
+
+	* <video>
+	Used to embed video content such as movie clip or other video streams.
+	<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+</video>
